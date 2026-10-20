@@ -1,9 +1,6 @@
-# Malathi014-NMProject
 # 🤖 AI-Powered Customer Support Chatbot
 
 An intelligent, context-aware conversational AI assistant designed for customer service automation. The system leverages Natural Language Processing (NLP) and Deep Learning to classify user intents and return accurate, automated responses via a responsive graphical user interface.
-
----
 
 ## 🚀 Key Features
 
@@ -12,8 +9,6 @@ An intelligent, context-aware conversational AI assistant designed for customer 
 - **Interactive GUI:** Built with Python's Tkinter framework (`ui.py`) for real-time conversation and debugging.
 - **Customizable Knowledge Base:** Structured JSON configuration (`intents.json`) allowing easy expansion of dialog tags, patterns, and responses.
 
----
-
 ## 🛠️ Tech Stack & Dependencies
 
 - **Language:** Python 3.x
@@ -21,9 +16,8 @@ An intelligent, context-aware conversational AI assistant designed for customer 
 - **NLP & Processing:** NLTK, Pickle
 - **GUI:** Tkinter
 
----
-
 ## 📂 Project Architecture
+
 ├── intents.json        # Dataset containing intent tags, patterns, and responses
 ├── train.py            # Neural network training script & model generation
 ├── chatbot_model.h5    # Serialized trained deep learning model
@@ -31,9 +25,6 @@ An intelligent, context-aware conversational AI assistant designed for customer 
 ├── encoder.pkl         # Label encoder mapping classes
 ├── chat.py             # Inference pipeline & response logic
 └── ui.py               # Graphical desktop interface
-
-
----
 
 ## 💻 Installation & Usage
 
