@@ -30,8 +30,21 @@ An intelligent, context-aware conversational AI assistant designed for customer 
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/Malathi014/Ai-customer-support-chatbot-NM.git](https://github.com/Malathi014/Ai-customer-support-chatbot-NM.git)
+   git clone https://github.com/Malathi014/Ai-customer-support-chatbot-NM.git
    cd Ai-customer-support-chatbot-NM
+   ```
+
+2. **Install Dependencies:**
+   ```bash
    pip install tensorflow nltk scikit-learn
+   ```
+
+3. **Train the Model (Optional):**
+   ```bash
    python train.py
+   ```
+
+4. **Launch the Application:**
+   ```bash
    python ui.py
+   ```
